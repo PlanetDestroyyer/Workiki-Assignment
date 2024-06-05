@@ -4,7 +4,7 @@ from google import generativeai as gen_ai
 from time import sleep
 
 
-GOOGLE_API_KEY = 'AIzaSyDMQHPn0yzZ9ei7KLovzlg1DtetQIrd0ac'
+GOOGLE_API_KEY = 'API_KEY'
 gen_ai.configure(api_key=GOOGLE_API_KEY)
 model = gen_ai.GenerativeModel('gemini-pro')
 
